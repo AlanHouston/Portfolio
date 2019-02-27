@@ -1,3 +1,8 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  color: #F7F4F3;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,3 +17,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#jumbo{
+  background-color: #564D4A;
+  /* background-image: url('./mc.png');
+  background-size: cover; */
+  border-radius: 0px;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+}
+
+#theNav{
+  background-color: #5B2333;
+}
+
+#theButton{
+  background-color: #5B2333;
+  border: none;
+  border-radius: 0px;
+}
+
+.acaBackG{
+  margin-top: -35px;
+  padding-top: 9px;
+  background-color: #5B2333;
+  width: 100%;
+}
+
+.acaCards{
+  background-color: #693745;
+}
+
+/* #5B2333 - purp*/
+/* #F7F4F3 - light*/
+/* #564D4A - grey*/
+/* #693745 - light purp */
