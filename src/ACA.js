@@ -6,7 +6,7 @@ export default class ACA extends React.Component {
     return (
       <Container>
         <Row>
-            <Col><h3>Austin Coding Academy learning material</h3></Col>
+            <Col><h3>Austin Coding Academy course material</h3></Col>
         </Row>
         <Row>
             <Col className="acaCards">

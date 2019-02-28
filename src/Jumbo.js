@@ -24,7 +24,7 @@ const Jumbo = () => {
         </p>
         
         <p className="lead">
-          <Button id="theButton" href="mailto:alanhouston5000@gmail.com">Contact Me!</Button>
+          <Button id="theButton" href="mailto:alanhouston5000@gmail.com">Email Me!</Button>
         </p>
       </Jumbotron>
       
