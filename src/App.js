@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Home from './Home.js'
+import Jumbo from './Jumbo.js'
 import Header from './Header.js'
 import ACA from './ACA.js'
+import Skills from './Skills.js'
 
 class App extends Component {
   render() {
@@ -12,10 +13,11 @@ class App extends Component {
         {/* <header className="App-header">
         </header> */}
        
-        <Header />
-        <Home />
+        <Header/>
+        <Jumbo/>
         <div className="acaBackG">
-          <ACA />
+          <Skills/>
+          <ACA/>
         </div>
       </div>
     );

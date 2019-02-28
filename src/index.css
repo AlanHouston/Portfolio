@@ -1,14 +1,12 @@
 *{
-  font-family: 'Roboto', sans-serif;
-  color: #F7F4F3;
+  /* color: #0F2628; */
+  color: #5A5B5B;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,7 +17,7 @@ code {
 }
 
 #jumbo{
-  background-color: #564D4A;
+  background-color: #E6E6E7;
   /* background-image: url('./mc.png');
   background-size: cover; */
   border-radius: 0px;
@@ -38,11 +36,11 @@ code {
 }
 
 #theNav{
-  background-color: #5B2333;
+  background-color: #D3D3D6;
 }
 
 #theButton{
-  background-color: #5B2333;
+  background-color: #A3A9AA;
   border: none;
   border-radius: 0px;
 }
@@ -50,15 +48,18 @@ code {
 .acaBackG{
   margin-top: -35px;
   padding-top: 9px;
-  background-color: #5B2333;
+  background-color: #D3D3D6;
   width: 100%;
 }
 
-.acaCards{
-  background-color: #693745;
-}
+/* .acaCards{
+  background-color: #A3A9AA;
+} */
 
-/* #5B2333 - purp*/
-/* #F7F4F3 - light*/
-/* #564D4A - grey*/
-/* #693745 - light purp */
+/* lower #A3A9AA */
+/* light #BBBBBF */
+
+
+/* slightly darker D3D3D6 */
+/* lighter E6E6E7 */
+

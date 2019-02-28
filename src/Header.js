@@ -13,10 +13,9 @@ import {
 //   DropdownItem 
 } from 'reactstrap';
 
-class Header extends React.Component {
+export default class Header extends React.Component {
     constructor(props) {
         super(props);
-
         this.toggle = this.toggle.bind(this);
         this.state = {
         isOpen: false
@@ -52,7 +51,7 @@ class Header extends React.Component {
         // } 
 
         const navStyle = {
-            color: '#F7F4F3'
+            color: '#5A5B5B'
         }
 
         return (
@@ -75,7 +74,7 @@ class Header extends React.Component {
                         <NavLink style={navStyle} href="https://linkedin.com/in/alan-houston-austin/" target="_blank">LinkedIn</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={navStyle} href="" target="_blank">Resume</NavLink>
+                        <NavLink style={navStyle} href="" target="_blank">Contact</NavLink>
                     </NavItem>
                     {/*<UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
@@ -101,5 +100,3 @@ class Header extends React.Component {
         );
     }
 }
-
-export default Header;
