@@ -13,7 +13,7 @@ import {
 //   DropdownItem 
 } from 'reactstrap';
 
-export default class Header extends React.Component {
+export default class Footer extends React.Component {
     constructor(props) {
         super(props);
         this.toggle = this.toggle.bind(this);
@@ -34,7 +34,7 @@ export default class Header extends React.Component {
 
         return (
             <div>
-                <Navbar id="theNav" light expand="md" postion="top">
+                <Navbar id="theNav" light expand="md" postion="bottom">
                 {/* <NavbarBrand 
                     // onClick={()=>this.getTheNumber()}
                     // href={brandUrl}
@@ -46,14 +46,15 @@ export default class Header extends React.Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink style={navStyle} href="https://github.com/AlanHouston" target="_blank">GitHub</NavLink>
+                        {/* <NavLink style={navStyle} href="https://github.com/AlanHouston" target="_blank">GitHub</NavLink> */}
+                        <NavLink style={navStyle} >&copy; 2019 Alan Houston</NavLink>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLink style={navStyle} href="https://linkedin.com/in/alan-houston-austin/" target="_blank">LinkedIn</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={navStyle} href="">Contact</NavLink>
-                    </NavItem>
+                        <NavLink style={navStyle} href="" target="_blank">Contact</NavLink>
+                    </NavItem> */}
                     {/*<UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
                         Options

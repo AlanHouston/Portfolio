@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Jumbo from './Jumbo.js'
 import Header from './Header.js'
+import Footer from './Footer.js'
 import ACA from './ACA.js'
 import Skills from './Skills.js'
 
@@ -15,10 +16,13 @@ class App extends Component {
        
         <Header/>
         <Jumbo/>
-        <div className="acaBackG">
+        <div className="skillsBackGround">
           <Skills/>
+        </div>
+        <div className="acaBackGround">
           <ACA/>
         </div>
+          <Footer/>
       </div>
     );
   }

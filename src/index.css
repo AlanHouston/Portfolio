@@ -16,13 +16,6 @@ code {
     monospace;
 }
 
-#jumbo{
-  background-color: #E6E6E7;
-  /* background-image: url('./mc.png');
-  background-size: cover; */
-  border-radius: 0px;
-}
-
 .navbar-nav {
   float:none;
   margin:0 auto;
@@ -36,19 +29,42 @@ code {
 }
 
 #theNav{
-  background-color: #D3D3D6;
+  /* background-color: #D3D3D6; */
+  background-color: #E6E6E7;
+}
+
+#jumbo{
+  /* background-color: #E6E6E7;  */
+  background-color: #EFEFF0; 
+  /* background-image: url('./mc.png');
+  background-size: cover; */
+  border-radius: 0px;
 }
 
 #theButton{
   background-color: #A3A9AA;
+  /* background-color: #D3D3D6; */
   border: none;
   border-radius: 0px;
 }
 
-.acaBackG{
+.skills{
+  background-color: #E6E6E7;
+  margin-bottom: 35px;
+}
+
+.skillsBackGround{
   margin-top: -35px;
   padding-top: 9px;
-  background-color: #D3D3D6;
+  /* background-color: #D3D3D6;  */
+  background-color: #E6E6E7;
+  /* width: 100%;  */
+}
+
+.acaBackGround{
+  margin-top: -35px;
+  padding-top: 9px;
+  background-color: #EFEFF0; 
   width: 100%;
 }
 

@@ -4,15 +4,16 @@ import { Container, Row, Col } from 'reactstrap';
 export default class Skills extends React.Component {
     render() {
         return (
-            <Container>
-                {/* <Row>
-                    <Col><h2>Skills</h2></Col>
-                </Row> */}
+            <Container className="skills">
                 <Row>
-                    <Col><h4>JavaScript • React • Redux • NodeJs • MongoDB • Bootstrap • jQuery</h4></Col>
+                    <Col><h2><i>What are My Skills?</i></h2></Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col><h4>JavaScript • React • Redux • NodeJs • MongoDB • Express • Bootstrap</h4></Col>
                 </Row>
                 <Row>
-                    <Col><h4>Git • Angular • Vue • WordPress • CSS • HTML</h4></Col>
+                    <Col><h4>Git • jQuery • Angular • Vue • WordPress • CSS • HTML</h4></Col>
                 </Row>
                 <br/>
                 <Row>
