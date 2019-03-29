@@ -6,24 +6,21 @@ import Header from './Header.js'
 import Footer from './Footer.js'
 import ACA from './ACA.js'
 import Skills from './Skills.js'
+import { BrowserRouter as Router, Route } from "react-router-dom"
+
+const MainPage=()=><div><Jumbo/><Skills/></div>
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {/* <header className="App-header">
-        </header> */}
-       
-        <Header/>
-        <Jumbo/>
-        <div className="skillsBackGround">
-          <Skills/>
-        </div>
-        <div className="acaBackGround">
-          <ACA/>
-        </div>
+      <Router>
+        <div className="App">
+          <Header/>
+          <Route path="/" exact component={MainPage}/>
+          <Route path="/ACA" exact component={ACA}/>
           <Footer/>
-      </div>
+        </div>
+      </Router>
     );
   }
 }

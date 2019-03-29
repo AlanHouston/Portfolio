@@ -12,6 +12,8 @@ import {
 //   DropdownMenu,
 //   DropdownItem 
 } from 'reactstrap';
+import {Link} from "react-router-dom";
+
 
 export default class Header extends React.Component {
     constructor(props) {
@@ -33,8 +35,8 @@ export default class Header extends React.Component {
         }
 
         return (
-            <div>
-                <Navbar id="theNav" light expand="md" postion="top">
+            <div id="theNav">
+                <Navbar light expand="md" postion="top">
                 {/* <NavbarBrand 
                     // onClick={()=>this.getTheNumber()}
                     // href={brandUrl}
@@ -45,6 +47,7 @@ export default class Header extends React.Component {
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
+                    <NavLink><Link to="/" style={navStyle}>Home</Link></NavLink>
                     <NavItem>
                         <NavLink style={navStyle} href="https://github.com/AlanHouston" target="_blank">GitHub</NavLink>
                     </NavItem>
@@ -53,6 +56,9 @@ export default class Header extends React.Component {
                     </NavItem>
                     <NavItem>
                         <NavLink style={navStyle} href="">Contact</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink><Link to="/ACA" style={navStyle}>ACA</Link></NavLink>
                     </NavItem>
                     {/*<UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>

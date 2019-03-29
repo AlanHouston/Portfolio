@@ -7,10 +7,11 @@ const Jumbo = () => {
   return (
     <div>
       <Jumbotron id="jumbo">
-        <h1 className="display-3">Greetings!</h1>
-        <h3 className="lead"><i>I'm Alan, a burgeoning, full-stack web developer</i></h3>
+        <h1 className="display-3 aleFont">Greetings!</h1>
+        <h2 className="lead aleFont"><i>I'm Alan, a full-stack web developer</i></h2>
         <hr className="my-2" />
-        <p>My journey began in the summer of 2018 as I enrolled in Colt Steele's 
+        {/* <p>I am currently on the lookout for a super cool company on the lookout for a super cool coder like me!</p> */}
+        {/* <p>My journey began in the summer of 2018 as I enrolled in Colt Steele's 
           Web Developer Bootcamp to find out if coding was something I could get into.
           <br/>
           I immediately took a liking and decided to go deeper with an in-person bootcamp at Austin Coding Academy.
@@ -28,7 +29,7 @@ const Jumbo = () => {
           <br/>
           As my current schedule allows, I code between two and six hours a day, and am very much looking forward to 
           enjoying a full-time career in web development!
-        </p>
+        </p> */}
         
         <p className="lead">
           <Button id="theButton" href="mailto:alanhouston5000@gmail.com">Email Me!</Button>
