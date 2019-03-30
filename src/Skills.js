@@ -1,20 +1,18 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 
-
-
 export default class Skills extends React.Component {
     render() {
         return (
             <Container className="light">
                 <Row>
                     <Col>
-                    <p>
-                        I recently completed the Full-Stack Web Developer Course at Austin Coding Academy, and I love spending time writing code!
-                        If you know of a super cool company looking for a super cool coder like myself, please reach out!
-                        I code in the MERN stack, so I would love to work on a team developing in React, however I have explored Angular and Vue, 
-                        so an opportunity with either would be excellent! 
-                    </p>
+                        <p>
+                            I recently completed the Full-Stack Web Developer Course at Austin Coding Academy, and I love spending time writing code!
+                            If you know of a super cool company looking for a super cool coder like myself, please reach out!
+                            THe bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored Angular and Vue, 
+                            so an opportunity with either would be excellent! 
+                        </p>
                     </Col>
                 </Row>
                 <br/>
@@ -23,8 +21,12 @@ export default class Skills extends React.Component {
                 </Row>
                 <br/>
                 <Row>
-                    <Col>The Armstrong App is the first full-stack application I built on my own. I created the app so I could 
-                    facilitate comparing current session data with past results. Please take a moment to check out the app and its source code!
+                    <Col>
+                        <p>
+                            The Armstrong App is my first full-stack application. It is a tracker for a pull-up program I have been 
+                            working with on and off over the last six months. I created the app in order to facilitate comparing current 
+                            session data with past results. Please take a moment to check out the app and source code!
+                        </p>
                     </Col>
                 </Row>
                 <br/>
@@ -36,6 +38,7 @@ export default class Skills extends React.Component {
                         <Button id="theButton" href="https://github.com/AlanHouston/ArmstrongProgram" target="_blank">Source Code</Button>
                     </Col>
                 </Row>
+                <br/>
                 <br/>        
                 <Row>
                     <Col><h1><i className="aleFont">Skillset</i></h1></Col>

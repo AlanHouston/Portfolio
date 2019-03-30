@@ -1,5 +1,4 @@
 *{
-  /* color: #0F2628; */
   color: #5A5B5B;
   font-family: 'Lato', sans-serif;
 }
@@ -15,7 +14,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -42,17 +40,12 @@ body {
 }
 
 #jumbo{
-  /* background-color: #E6E6E7;  */
   background-color: #EFEFF0; 
-  /* background-image: url('./mc.png');
-  background-size: cover; */
   border-radius: 0px;
-  
 }
 
 #theButton{
   background-color: #A3A9AA;
-  /* background-color: #D3D3D6; */
   border: none;
   border-radius: 0px;
 }
@@ -69,6 +62,14 @@ body {
   padding-top: 9px;
   background-color: #EFEFF0; 
   width: 100%;
+}
+
+.contactStyle{
+  margin-top: 25px;
+}
+
+.darkFont{
+  color: #5A5B5B;
 }
 
 /* lower #A3A9AA */

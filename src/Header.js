@@ -36,7 +36,7 @@ export default class Header extends React.Component {
 
         return (
             <div id="theNav">
-                <Navbar light expand="md" postion="top">
+                <Navbar expand="md" postion="top">
                 {/* <NavbarBrand 
                     // onClick={()=>this.getTheNumber()}
                     // href={brandUrl}
@@ -58,7 +58,13 @@ export default class Header extends React.Component {
                         <NavLink style={navStyle} href="">Contact</NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink><Link to="/Resume" style={navStyle}>Resume</Link></NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink><Link to="/ACA" style={navStyle}>ACA</Link></NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink><Link to="/Contact" style={navStyle}>Contact</Link></NavLink>
                     </NavItem>
                     {/*<UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>

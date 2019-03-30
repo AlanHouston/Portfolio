@@ -6,6 +6,8 @@ import Header from './Header.js'
 import Footer from './Footer.js'
 import ACA from './ACA.js'
 import Skills from './Skills.js'
+import Contact from './Contact.js'
+import Resume from './Resume.js'
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
 const MainPage=()=><div><Jumbo/><Skills/></div>
@@ -18,6 +20,8 @@ class App extends Component {
           <Header/>
           <Route path="/" exact component={MainPage}/>
           <Route path="/ACA" exact component={ACA}/>
+          <Route path="/Contact" exact component={Contact}/>
+          <Route path="/Resume" exact component={Resume}/>
           <Footer/>
         </div>
       </Router>

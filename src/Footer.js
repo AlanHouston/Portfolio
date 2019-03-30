@@ -34,7 +34,7 @@ export default class Footer extends React.Component {
 
         return (
             <div>
-                <Navbar id="theNav" light expand="md" postion="bottom">
+                <Navbar className="fixed-bottom" id="theNav" light expand="md" postion="bottom">
                 {/* <NavbarBrand 
                     // onClick={()=>this.getTheNumber()}
                     // href={brandUrl}
