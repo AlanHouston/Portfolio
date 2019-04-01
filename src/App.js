@@ -7,7 +7,7 @@ import Footer from './Footer.js'
 import ACA from './ACA.js'
 import Skills from './Skills.js'
 import Contact from './Contact.js'
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { HashRouter as Router, Route } from "react-router-dom"
 
 const MainPage=()=><div><Jumbo/><Skills/></div>
 
