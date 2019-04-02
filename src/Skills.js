@@ -10,7 +10,7 @@ export default class Skills extends React.Component {
                         <p>
                             I recently completed the Full-Stack Web Developer Course at Austin Coding Academy, and I love spending time writing code!
                             If you know of a super cool company looking for a super cool coder like myself, please reach out!
-                            THe bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored Angular and Vue, 
+                            The bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored Angular and Vue, 
                             so an opportunity with either would be excellent! 
                         </p>
                     </Col>
