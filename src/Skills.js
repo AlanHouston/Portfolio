@@ -10,8 +10,8 @@ export default class Skills extends React.Component {
                         <p>
                             I recently completed the Full-Stack Web Developer Course at Austin Coding Academy, and I love spending time writing code!
                             If you know of a super cool company looking for a super cool coder like myself, please reach out!
-                            The bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored Angular and Vue, 
-                            so an opportunity with either would be excellent! 
+                            The bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored other frameworks, 
+                            so I'm eager to explore any and every opportunity! 
                         </p>
                     </Col>
                 </Row>
@@ -32,7 +32,7 @@ export default class Skills extends React.Component {
                 <br/>
                 <Row>
                     <Col>
-                        <Button id="theButton" href="http://www.southparkstudios.com" target="_blank">Armstrong App</Button>
+                        <Button id="theButton" href="http://alanhouston.github.io/ArmstrongProgram" target="_blank">Armstrong App</Button>
                         <br/>
                         <br/>
                         <Button id="theButton" href="https://github.com/AlanHouston/ArmstrongProgram" target="_blank">Source Code</Button>
@@ -53,7 +53,7 @@ export default class Skills extends React.Component {
                 <Row>
                     <Col><h4>Conversational Spanish</h4></Col>
                 </Row>
-                <Row>
+                <Row className="skillsBottom">
                     <Col><h4>...excited and ready to learn new things!</h4></Col>
                 </Row>
                 <br/>
