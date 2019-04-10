@@ -40,9 +40,6 @@ export default class Header extends React.Component {
                         <NavLink style={navStyle} href="https://linkedin.com/in/alan-houston-austin/" target="_blank">LinkedIn</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={navStyle} href="">Contact</NavLink>
-                    </NavItem>
-                    <NavItem>
                         <NavLink style={navStyle} href="https://alanhouston.github.io/AlanHouston.pdf" target="_blank">Resume</NavLink>
                     </NavItem>
                     <NavItem>

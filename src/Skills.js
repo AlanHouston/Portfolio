@@ -48,7 +48,7 @@ export default class Skills extends React.Component {
                     <Col><h4>JavaScript • React • NodeJs • Redux • MongoDB • Mongoose • Express • Bootstrap</h4></Col>
                 </Row>
                 <Row>
-                    <Col><h4>Git • jQuery • Angular • Vue • WordPress • CSS • HTML</h4></Col>
+                    <Col><h4>Git • jQuery • Angular • WordPress • CSS • HTML</h4></Col>
                 </Row>
                 <Row>
                     <Col><h4>Conversational Spanish</h4></Col>
