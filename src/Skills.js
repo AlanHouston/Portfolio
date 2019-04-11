@@ -11,7 +11,7 @@ export default class Skills extends React.Component {
                             I recently completed the Full-Stack Web Developer Course at Austin Coding Academy, and I love spending time writing code!
                             If you know of a super cool company looking for a super cool coder like myself, please reach out!
                             The bulk of my experience is in the MERN stack, so I would love to work on a team developing in React, however I have explored other frameworks, 
-                            so I'm eager to explore any and every opportunity! 
+                            so I'm eager to learn new things and explore any and every opportunity! 
                         </p>
                     </Col>
                 </Row>
@@ -25,14 +25,14 @@ export default class Skills extends React.Component {
                         <p>
                             The Armstrong App is my first full-stack application. It is a tracker for a pull-up program I have been 
                             working with on and off over the last six months. I created the app in order to facilitate comparing current 
-                            session data with past results. Please take a moment to check out the app and source code!
+                            session data with past results. It is currently built for one user, but please take a moment to check out the app and source code!
                         </p>
                     </Col>
                 </Row>
                 <br/>
                 <Row>
                     <Col>
-                        <Button id="theButton" href="http://alanhouston.github.io/ArmstrongProgram" target="_blank">Armstrong App</Button>
+                        <Button id="theButton" href="https://armstrongprogram.herokuapp.com/" target="_blank">Armstrong App</Button>
                         <br/>
                         <br/>
                         <Button id="theButton" href="https://github.com/AlanHouston/ArmstrongProgram" target="_blank">Source Code</Button>
