@@ -8,7 +8,7 @@ const Jumbo = () => {
     <div>
       <Jumbotron id="jumbo">
         <h1 className="display-3 aleFont">Greetings!</h1>
-        <h2 className="lead aleFont"><i>I'm Alan, a full-stack web developer</i></h2>
+        <h2 className="lead aleFont"><i>I'm Alan, a full-stack developer</i></h2>
         <hr className="my-2" />
         {/* <p>I am currently on the lookout for a super cool company on the lookout for a super cool coder like me!</p> */}
         {/* <p>My journey began in the summer of 2018 as I enrolled in Colt Steele's 
