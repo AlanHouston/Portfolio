@@ -35,7 +35,7 @@ export default class Skills extends React.Component {
                         <Button id="theButton" href="https://armstrongprogram.herokuapp.com/" target="_blank">Armstrong App</Button>
                         <br/>
                         <br/>
-                        <Button id="theButton" href="https://github.com/AlanHouston/ArmstrongProgram" target="_blank">Source Code</Button>
+                        <Button id="theButton" href="https://github.com/AlanHouston/theArmstrongProgram" target="_blank">Source Code</Button>
                     </Col>
                 </Row>
                 <br/>
