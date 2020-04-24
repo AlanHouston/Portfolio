@@ -7,7 +7,7 @@ const Jumbo = () => {
   return (
     <div>
       <Jumbotron id="jumbo">
-        <h1 className="display-3 aleFont">Greetings!</h1>
+        <h1 className="display-3 aleFont">Howdy!</h1>
         <h2 className="lead aleFont"><i>I'm Alan, a full-stack developer</i></h2>
         <hr className="my-2" />
         {/* <p>I am currently on the lookout for a super cool company on the lookout for a super cool coder like me!</p> */}
